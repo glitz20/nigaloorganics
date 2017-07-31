@@ -3,7 +3,9 @@ body, html {
     font-family: 'Open Sans', sans-serif;
     color:black;
 }
-
+#myCarousel{
+    height:500px;
+}
 
 .footer{
     background-color: gray;
@@ -87,7 +89,7 @@ body, html {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;
-    padding-bottom: 0px;
+   
 }
 
 
