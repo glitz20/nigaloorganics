@@ -2,6 +2,11 @@ body, html {
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
 }
+
+navbar-collapse > navbar > li > a:hover { 
+border-bottom: 2px solid #F117B4;
+text-decoration: none; 
+}
 .footer{
     background-color: gray;
     text-decoration: none;
