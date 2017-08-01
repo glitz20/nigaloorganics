@@ -4,7 +4,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
@@ -13,7 +14,7 @@
     <title>Nigalo Organics</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -65,56 +66,87 @@
       
       <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" id ="pics"  src="https://i.imgur.com/MXFifGX.jpg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" id="pics"  src="https://i.imgur.com/aWOM49j.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" id="pics"  src="https://i.imgur.com/k4J2LT0.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://res.cloudinary.com/dgezrstzt/image/upload/v1501617250/sea_ng1a4w.jpg">
+    </div>
+
+    <div class="item">
+      <img src="http://res.cloudinary.com/dgezrstzt/image/upload/v1501617272/ponds_tgyuid.jpg" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="http://res.cloudinary.com/dgezrstzt/image/upload/v1501617276/lows_tmscqs.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      <!--carasoul-->
      
 <!--content-->
+      <div class="intro text-center" >
+          <h2><b>NIGALO ORGANICS</b></h2>
+          <p><i>Experience both of luxury and wild</i><br>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. <br>It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          <a href="lodges.html">The Resort</a>&emsp;
+          <a href="offers.html">See Offers</a>
+      </div>
+      
+      <div class="rating text-center">
+          <div class="content">
+      &#9734;&#9734;&#9734;&#9734;&#9734;<br>
+        <p>"World class service, terrific place, hospitality second to none. <br>Nigalo is place must to be visited"<br>
+          -travel.com
+          </p>
+      </div>
+         
+      </div>
+      <div class="row">
+       <div class="contain col-md-6">
+  <img src="http://res.cloudinary.com/dgezrstzt/image/upload/v1501617995/ancient_l9vzyu.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Adventure</div>
+  </div>
+</div>
+      <div class="contain col-md-6">
+  <img src="http://res.cloudinary.com/dgezrstzt/image/upload/v1501618004/adv_chueur.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Adventure</div>
+  </div>
+</div>
+</div>
+      <div class="row">
+      <div class="contain col-md-6">
+  <img src="http://res.cloudinary.com/dgezrstzt/image/upload/v1501618170/yoga_jp5zoi.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Adventure</div>
+  </div>
+</div>
+      <div class="contain col-md-6">
+  <img src="http://res.cloudinary.com/dgezrstzt/image/upload/v1501618174/relaxs_zzte7o.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Adventure</div>
+  </div>
+</div>
+      </div>
       <div class="adventure text-center">
         <div class="row">
             <div class="col-xs-8">
@@ -127,6 +159,7 @@
           <img src="https://i.imgur.com/awB5siV.jpg" alt="adv" class="adv">
             </div>
       </div>
+          <hr/>
           </div>
       
       <div class="culture text-center">
@@ -137,11 +170,14 @@
             <div class="col-xs-7">
                 <h1>Culture</h1>
                 <p class="home">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                
             </div>
       </div>
+          <hr/>
           </div>
       
       <div class="nature text-center">
+          <div class="row">
           <div class="col-xs-7">
               <h1>The Wild</h1>
               <p class="home">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -150,6 +186,8 @@
             <div class="col-xs-5">
           <img src="https://i.imgur.com/ALAMt9T.jpg" alt="nature" >
             </div>
+          </div>
+         <hr/>
           </div>
       
      
@@ -207,7 +245,7 @@
           </div>
       </div>
     <p class="text-center contact">Contact:   +977981-234-5612            Email:nigaloorganics@outlook.com<br>
-                             &copy; 2017 Nigalo Organics  &emsp; &emsp;      Site by sabinsapkota</p>
+                             &copy; 2017 NigaloOrganics  &emsp; &emsp;      </p>
               </div>
       </div>
          
