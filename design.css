@@ -5,23 +5,7 @@ body, html {
 
 text-decoration: none; 
 }
-.line{
-     text-decoration: none; 
-   position: relative; 
-}
-.line:hover::after{
-    content:'';
-    position:absolute;
-    
-    width: 6px;
-    height: 2px;    
-    left:0;
-    bottom:10px; /*Change this to increase/decrease distance*/
-    border-bottom: 2px solid red;  
-}
-#myCarousel{
-   height: 600px;
-}
+
 .footer{
     background-color: gray;
     text-decoration: none;
@@ -92,6 +76,7 @@ text-decoration: none;
 .adventure{
     background-color: grey;
     height:330px;
+    margin-top: 100px;
 }
 
 .culture{
