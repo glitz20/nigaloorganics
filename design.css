@@ -3,10 +3,7 @@ body, html {
     font-family: 'Open Sans', sans-serif;
     color:black;
 }
-.carousel{
-    
-    
-}
+
 
 .footer{
     background-color: gray;
@@ -16,7 +13,7 @@ body, html {
    
    
 }   
-        .footer a:link, .footer a:visited {
+.footer a:link, .footer a:visited {
     
     color: white;
    
@@ -90,7 +87,7 @@ body, html {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;
-   
+    padding-bottom: 0px;
 }
 
 
