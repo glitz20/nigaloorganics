@@ -1,5 +1,7 @@
 body, html { 
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+
 }
 .nav a:hover { 
 
