@@ -8,8 +8,16 @@ body, html {
 text-decoration: none; 
 }
 
-.footer{
-    background-color: gray;
+.carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     display: block;
+     width: 100%;
+     height: 582px; !important;
+}
+     
+     .footer{
+    background-color: black;
+    
     text-decoration: none;
     color:aliceblue;
     width:100%;
@@ -78,18 +86,23 @@ text-decoration: none;
 .adventure{
     background-color: white;
     height:330px;
-    margin-top: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .culture{
     background-color: white;
     height:330px;
-    padding-left: -10px;
+    margin-left: -10px;
+     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .nature{
     background-color: white;
     height:330px;
+     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
@@ -117,4 +130,74 @@ text-decoration: none;
 .home{
     padding-left: 35px;
     padding-right: 35px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.line{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height:1px;
+}
+.intro{
+    height:200px;
+    width:100%;
+}
+.rating {
+     height:200px;
+    width:100%;
+    background-color:darkslateblue;
+    color:white;
+}
+
+.rating>.content{
+    padding-top:25px;
+    padding-bottom:25px;
+    font-style: italic;
+        font-size:28px;
+}
+.contain{
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+    padding:0px;
+    margin: 0px;
+     position:relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+    opacity: 0.8;
+}
+
+.contain:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
