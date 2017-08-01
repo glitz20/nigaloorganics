@@ -84,7 +84,7 @@ text-decoration: none;
 .culture{
     background-color: white;
     height:330px;
-    padding-left: 0px;
+    padding-left: -10px;
 }
 
 .nature{
