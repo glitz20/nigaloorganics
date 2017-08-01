@@ -76,18 +76,18 @@ text-decoration: none;
     overflow: hidden;
 }
 .adventure{
-    background-color: grey;
+    background-color: white;
     height:330px;
     margin-top: 0px;
 }
 
 .culture{
-    background-color: ghostwhite;
+    background-color: white;
     height:330px;
 }
 
 .nature{
-    background-color: beige;
+    background-color: white;
     height:330px;
 }
 
@@ -113,3 +113,7 @@ text-decoration: none;
     margin-top:60px; 
 }
 
+.home{
+    padding-left: 15px;
+    padding-right: 15px;
+}
