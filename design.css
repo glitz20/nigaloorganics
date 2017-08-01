@@ -84,6 +84,7 @@ text-decoration: none;
 .culture{
     background-color: white;
     height:330px;
+    padding-left: 0px;
 }
 
 .nature{
@@ -114,6 +115,6 @@ text-decoration: none;
 }
 
 .home{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
