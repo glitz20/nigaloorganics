@@ -1,30 +1,446 @@
 body, html { 
     overflow-x: hidden;
-    font-family: 'Open Sans', sans-serif;
-
+   font-family: 'Libre Baskerville', serif;
 }
-.nav a:hover { 
-
-text-decoration: none; 
+/**navbar**/
+#navbar a:hover { 
+text-decoration: none;
+    color:#027733;
+} 
+#navbar a{
+    color:black; 
+}
+.navbar-brand{
+font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:#027733 !important;
+}
+/**carousel**/
+.pic{
+    width:100%;
+}
+.carousel>.carousel-inner{
+    max-height:590px;
+}
+/**index-intro**/
+.index>.intro{
+    height:auto;
+    margin:60px 0px;
+    width:100%;
+}
+.nigalo{
+    font-family:'Montserrat', sans-serif;
+    font-size:20px;
+    color:#027733
+}
+h3{
+    margin: 20px 0px;
+    font-size:30px;
+   font-family: 'Sorts Mill Goudy', serif;
+}
+/**index-rating**/
+.rating {
+     height:auto;
+    width:100%;
+    background-color:#f1f1f1;
+    color:black;
 }
 
-.carousel-inner > .item > img,
- .carousel-inner > .item > a > img {
-     display: block;
-     width: 100%;
-     height: 582px; !important;
-}
-     
-     .footer{
-    background-color: black;
+.rating>.content{
+    padding-top:25px;
+    padding-bottom:25px;
+    font-size:28px;
     
+/**image overlay**/
+}
+.image {
+  display: block;
+  width: 100%;
+  max-height: 590px;
+  
+    padding:0px;
+    margin: 0px;
+     position:relative;
+  
+    }
+.overtext{
+    margin:10px 15px;
+}
+
+
+.adventure{
+    background-color: white;
+    height:auto;
+    padding:0px !important;
+}
+.adventure .content{
+    padding: 15px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+    .bcd{
+   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501829762/journey_d2uebr.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 350px;
+}
+
+.efg{
+   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501617250/sea_ng1a4w.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 350px;
+}
+.container-fluid{
+padding:0px !important;
+    margin: 0px !important;
+}
+.culture{
+    background-color: white;
+    height:auto;
+    padding:0px !important;
+    }
+
+.culture .content{
+    padding: 15px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.nature{
+    background-color: white;
+    height:auto;
+    padding:0px !important;
+}
+.nature .col-md-6{
+    margin:0px;
+    padding:0px;
+}
+.nature .content{
+   padding: 15px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+.booking{
+    height:auto;
+    background-color:#f1f1f1;
+    margin-bottom: 10px;
+}
+.booking>.content{
+    padding:40px 35px;
+}
+.forum{
+    margin:20px 300px;
+    width:auto;
+}
+
+@media screen and (max-width:1199px){
+    .forum{
+        margin:15px 200px;
+    }
+}
+@media screen and (max-width:991px){
+    .forum{
+        margin:15px 150px;
+    }
+}
+@media screen and (max-width:767px){
+    .forum{
+        margin:10px 100px;
+    }
+}
+@media screen and (max-width:479px){
+    .forum{
+        margin:0px 0px;
+    }
+}
+.nig{
+    background-color: #027733;
+    border: none;
+    text-align: center;
+    
+}
+.award{
+  /*depnding on the screen size the pixel should change automatically, but just adding width for demo. Change the width to 200,300,500, 1000. should work*/
+  width:700px;
+  max-width:100%;
+}
+.aw-img{
+   display: flex; 
+    justify-content: space-around;
+    margin:10px 40px;
+}
+.imga{
+  width: 17%;
+  height:auto;
+}
+
+
+.feat{
+    text-align: center;
+   padding-top: 15px;
+    font-size: 25px;
+}
+
+.overviewcontent{
+    margin-top:60px; 
+}
+
+
+.line{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height:1px;
+}
+
+
+.contain{
+  position: relative;
+ 
+  padding:0px;
+  margin:0px;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+    opacity: 0.8;
+   padding:0px;
+  margin:0px;
+}
+
+.contain:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.contain .col-md-6 {
+  padding: 0;
+}
+
+
+.review{
+     height:250px;
+    background-color: bisque;
+}
+.review>.content{
+    padding:40px 60px 40px 60px;
+}
+
+
+
+.overview-header>.image{
+    width:100%;
+    height:550px;
+    margin:auto;
+}
+
+.overview>.content{
+    margin:25px 40px;
+    border:1px solid green;
+    height:auto;
+}
+
+.overview>.content>.aboutus{
+    margin:25px 40px;
+}
+.values{
+    margin:20px 30px;
+}
+.values .content{
+    margin:30px 20px;
+    border-color:none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+.values .val{
+    margin:15px 20px;
+    text-align: left;
+}
+
+.lodges{
+    margin:15px 45px 15px 45px;
+}
+.lodges>.intro{
+    border:solid blue 1px;
+    height:auto;
+}
+
+.lodges>.intro>.content{
+    margin:10px;
+    background-color: darkgrey;
+}
+
+
+.room{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.room>.intro{
+    border: 1px solid blue;
+    height:auto;
+     margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.room>.intro>.content{
+    margin:10px;
+    background-color: darkgrey;
+}
+.room>.intro>.content>.col-md-8{
+    border:solid blue 1px;
+}
+
+.room>.intro>.content>.col-md-4{
+    border: 1px solid blue;
+}
+.register .row{
+    margin-top:60px;
+}
+.register>.intro{
+    height:200px;
+    width:100%;
+    margin-top: 60px;
+    
+}
+#book-content{
+    margin: 95px 60px !important;
+    border: 2px solid blue;
+}
+.record{
+    margin:60px 60px;
+    height:auto;
+    border: 2px solid blue;
+   
+}
+.record form{
+    margin:60px 100px;
+    padding-bottom: 20px;
+}
+.btn-primary{
+    
+}
+
+/**Offers**/
+.offers{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.offers>.div{
+    margin:40px 60px;
+    border: 1px solid blue;
+}
+
+.offers .off{
+    padding:20px 25px;
+}
+/**Activities**/
+.activities{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.activities>.div{
+    margin:40px 60px;
+    border: 1px solid blue;
+}
+.activities .at{
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.act{
+    float:right;
+}
+
+/**contact**/
+.contact{
+    margin-top: 60px;
+}
+
+.contact>.intro{
+    height:auto;
+    width:100%;
+    margin-top: 80px;
+   
+    
+}
+.contact>.intro>.content{
+    margin: 45px 60px;
+    border: 2px solid blue;
+}
+.contact .par{
+    margin:40px;
+    background-color: #f1f1f1;
+}
+.subbut{
+    background-color:green;
+    color:white;
+}
+.careers .row{
+    background-color:#f1f1f1;
+}
+/**career**/
+
+.careers .intro
+{
+   height:370px;
+}
+
+.careers .content{
+    padding:40px 40px;
+}
+
+
+
+/**footer**/
+.footer{
+    background-color: black;
     text-decoration: none;
     color:aliceblue;
     width:100%;
    
    
 }   
-        .footer a:link, .footer a:visited {
+.footer>.content{
+    padding:35px 70px;
+}
+.left{
+    padding-left: 60px;
+    
+}
+
+.right{
+    
+}
+#foot{
+     padding:35px 0px 0px 10px;
+}
+ .footer a:link, .footer a:visited {
     
     color: white;
    
@@ -53,11 +469,12 @@ text-decoration: none;
 }
 
 .fa {
-    padding: 4px;
-    font-size: 30px;
     
+    font-size: 60px;
+   padding:4px;
     text-align:right;
     text-decoration: none;
+  font-size:30px !important;
 }
 
 /* Add a hover effect if you want */
@@ -67,137 +484,14 @@ text-decoration: none;
 }
 .contact{
     word-spacing: 10px;
+    margin-top: 10px;
 }
 .copyright{
-    padding-top:  -top: 16px;
+    padding-top: 16px;
     padding-bottom: 16px;
     background-color: black;
     color: white;
 }
 
-#pics{
-    
-    width:100%;
-    height:600px;
-}
-.navbar{
-    overflow: hidden;
-}
-.adventure{
-    background-color: white;
-    height:330px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.culture{
-    background-color: white;
-    height:330px;
-    margin-left: -10px;
-     margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.nature{
-    background-color: white;
-    height:330px;
-     margin-top: 15px;
-    margin-bottom: 15px;
-}
 
 
-.content{
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-
-
-
-.feat{
-    text-align: center;
-   padding-top: 15px;
-    font-size: 25px;
-}
-
-.overviewcontent{
-    margin-top:60px; 
-}
-
-.home{
-    padding-left: 35px;
-    padding-right: 35px;
-    line-height: 30px;
-    font-size: 20px;
-}
-.line{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height:1px;
-}
-.intro{
-    height:200px;
-    width:100%;
-}
-.rating {
-     height:200px;
-    width:100%;
-    background-color:darkslateblue;
-    color:white;
-}
-
-.rating>.content{
-    padding-top:25px;
-    padding-bottom:25px;
-    font-style: italic;
-        font-size:28px;
-}
-.contain{
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-    padding:0px;
-    margin: 0px;
-     position:relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-    opacity: 0.8;
-}
-
-.contain:hover .overlay {
-  height: 100%;
-}
-
-.text {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
