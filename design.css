@@ -261,7 +261,7 @@ padding:0px !important;
 
 .overview>.content{
     margin:25px 40px;
-    border:1px solid green;
+    border:1px solid #027733;
     height:auto;
 }
 
@@ -286,7 +286,7 @@ padding:0px !important;
     margin:15px 45px 15px 45px;
 }
 .lodges>.intro{
-    border:solid blue 1px;
+    border:solid #027733 1px;
     height:auto;
 }
 
@@ -301,7 +301,7 @@ padding:0px !important;
     margin-bottom: 30px;
 }
 .room>.intro{
-    border: 1px solid blue;
+    border: 1px solid #027733;
     height:auto;
      margin-top: 30px;
     margin-bottom: 30px;
@@ -312,11 +312,11 @@ padding:0px !important;
     background-color: darkgrey;
 }
 .room>.intro>.content>.col-md-8{
-    border:solid blue 1px;
+    border:solid #027733 1px;
 }
 
 .room>.intro>.content>.col-md-4{
-    border: 1px solid blue;
+    border: 1px solid #027733;
 }
 .register .row{
     margin-top:60px;
@@ -329,12 +329,12 @@ padding:0px !important;
 }
 #book-content{
     margin: 95px 60px !important;
-    border: 2px solid blue;
+    border: 1px solid #027733;
 }
 .record{
     margin:60px 60px;
     height:auto;
-    border: 2px solid blue;
+    border: 1px solid #027733;
    
 }
 .record form{
@@ -353,7 +353,7 @@ padding:0px !important;
 
 .offers>.div{
     margin:40px 60px;
-    border: 1px solid blue;
+    border: 1px solid #027733;
 }
 
 .offers .off{
@@ -367,7 +367,7 @@ padding:0px !important;
 
 .activities>.div{
     margin:40px 60px;
-    border: 1px solid blue;
+    border: 1px solid #027733;
 }
 .activities .at{
     margin-right: 0px;
@@ -391,7 +391,7 @@ padding:0px !important;
 }
 .contact>.intro>.content{
     margin: 45px 60px;
-    border: 2px solid blue;
+    border: 1px solid #027733;
 }
 .contact .par{
     margin:40px;
