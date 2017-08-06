@@ -286,7 +286,7 @@ padding:0px !important;
     margin:15px 45px 15px 45px;
 }
 .lodges>.intro{
-    border:solid #027733 1px;
+    border:1px solid #027733;
     height:auto;
 }
 
@@ -312,7 +312,7 @@ padding:0px !important;
     background-color: darkgrey;
 }
 .room>.intro>.content>.col-md-8{
-    border:solid #027733 1px;
+    border:1px solid #027733;
 }
 
 .room>.intro>.content>.col-md-4{
