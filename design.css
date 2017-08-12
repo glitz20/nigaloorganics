@@ -28,6 +28,11 @@ font-family: 'Montserrat', sans-serif;
     
 }
 
+.h4{
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size:18px;
+}
 /**index-intro**/
 .index>.intro{
     height:auto;
@@ -180,10 +185,7 @@ padding:0px !important;
     margin:150px ;
     
 }
-     .carousel-captions{
-    margin:450px 100px 20px 100px;
-    
-}
+     
     
 }
 
@@ -195,13 +197,10 @@ padding:0px !important;
     margin:20px 80px;
     }
     .carousel-caption{
-    margin:250px 100px;
+    margin:150px 100px;
     
 }
-     .carousel-captions{
-    margin:550px 100px;
-    
-}
+     
 }
 @media screen and (max-width:767px){
     .forum{
@@ -212,7 +211,7 @@ padding:0px !important;
     margin:20px 40px;
     }
     .carousel-caption{
-    margin:40px 20px;
+    margin:-30px 5px 0px 5px;
     font-size:12px;
     
 }
@@ -225,7 +224,7 @@ padding:0px !important;
     margin:20px 20px;
     }
      .carousel-caption{
-    margin:10px 5px;
+    margin:-30px 5px 0px 5px;
     font-size:12px;
 }
 }
