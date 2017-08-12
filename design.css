@@ -21,7 +21,13 @@ font-family: 'Montserrat', sans-serif;
 }
 .carousel>.carousel-inner{
     max-height:590px;
+     width: 100%;
 }
+.carousel-caption{
+    margin:150px;
+    
+}
+
 /**index-intro**/
 .index>.intro{
     height:auto;
@@ -53,16 +59,7 @@ h3{
     
 /**image overlay**/
 }
-.image {
-  display: block;
-  width: 100%;
-  max-height: 590px;
-  
-    padding:0px;
-    margin: 0px;
-     position:relative;
-  
-    }
+
 .overtext{
     margin:10px 15px;
 }
@@ -79,7 +76,21 @@ h3{
     font-size: 16px;
 }
 
+.abc{
+   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501618174/relaxs_zzte7o.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 350px;
+}
 
+.cde{
+   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1502500269/rough_uuf59a.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 350px;
+}
     .bcd{
    background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501829762/journey_d2uebr.jpg');
   background-position: bottom center;
@@ -95,10 +106,19 @@ h3{
   background-size:cover;
   height: 350px;
 }
+.xyz{
+   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1502500528/river-fish-_uekdmt.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 350px;  
+}
 .container-fluid{
 padding:0px !important;
     margin: 0px !important;
 }
+
+
 .culture{
     background-color: white;
     height:auto;
@@ -126,11 +146,20 @@ padding:0px !important;
     font-size: 16px;
 }
 
+/**highlights**/
 
+.introp{
+    text-align: left;
+    padding:15px 30px;
+}
 .booking{
     height:auto;
     background-color:#f1f1f1;
     margin-bottom: 10px;
+}
+#book-content{
+    padding: 45px;
+    background-color: #f1f1f1;
 }
 .booking>.content{
     padding:40px 35px;
@@ -144,22 +173,63 @@ padding:0px !important;
     .forum{
         margin:15px 200px;
     }
+    .contact>.par{
+    margin:20px 120px;
+    }
+    .carousel-caption{
+    margin:150px ;
+    
 }
+     .carousel-captions{
+    margin:450px 100px 20px 100px;
+    
+}
+    
+}
+
 @media screen and (max-width:991px){
     .forum{
         margin:15px 150px;
     }
+    .contact>.par{
+    margin:20px 80px;
+    }
+    .carousel-caption{
+    margin:250px 100px;
+    
+}
+     .carousel-captions{
+    margin:550px 100px;
+    
+}
 }
 @media screen and (max-width:767px){
     .forum{
         margin:10px 100px;
+        
     }
+    .contact>.par{
+    margin:20px 40px;
+    }
+    .carousel-caption{
+    margin:40px 20px;
+    font-size:12px;
+    
+}
 }
 @media screen and (max-width:479px){
     .forum{
         margin:0px 0px;
     }
+    .contact>.par{
+    margin:20px 20px;
+    }
+     .carousel-caption{
+    margin:10px 5px;
+    font-size:12px;
 }
+}
+
 .nig{
     background-color: #027733;
     border: none;
@@ -253,11 +323,16 @@ padding:0px !important;
 
 
 
-.overview-header>.image{
+.overview-header{
     width:100%;
-    height:550px;
-    margin:auto;
+    max-height:590px;
+    
 }
+.overimage {
+  width: 100%;
+  object-fit: cover;
+     max-height:590px;
+  }
 
 .overview>.content{
     margin:25px 40px;
@@ -341,9 +416,7 @@ padding:0px !important;
     margin:60px 100px;
     padding-bottom: 20px;
 }
-.btn-primary{
-    
-}
+
 
 /**Offers**/
 .offers{
@@ -373,6 +446,9 @@ padding:0px !important;
     margin-right: 0px;
     padding-right: 0px;
 }
+.activities .par{
+    padding: 30px 0px 0px 50px;
+}
 .act{
     float:right;
 }
@@ -390,11 +466,11 @@ padding:0px !important;
     
 }
 .contact>.intro>.content{
-    margin: 45px 60px;
+    margin: 45px 100px;
     border: 1px solid #027733;
 }
 .contact .par{
-    margin:40px;
+   
     background-color: #f1f1f1;
 }
 .subbut{
@@ -429,14 +505,11 @@ padding:0px !important;
 .footer>.content{
     padding:35px 70px;
 }
-.left{
+.footer .left{
     padding-left: 60px;
     
 }
 
-.right{
-    
-}
 #foot{
      padding:35px 0px 0px 10px;
 }
@@ -459,13 +532,28 @@ padding:0px !important;
 
 .subs{
     
-   
-    padding-right: 80px;
-    padding-left: 80px;
+
+}
+.email{
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
+.subs .col-xs-10{
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
+
+.subs .col-xs-2{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+.sutta{
+    margin: auto;
 }
 .social{
     margin-left: 0px;
     padding-left: 13px;
+   
 }
 
 .fa {
