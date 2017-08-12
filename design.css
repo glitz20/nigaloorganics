@@ -1,178 +1,4 @@
-body, html { 
-    overflow-x: hidden;
-   font-family: 'Libre Baskerville', serif;
-}
-/**navbar**/
-#navbar a:hover { 
-text-decoration: none;
-    color:#027733;
-} 
-#navbar a{
-    color:black; 
-}
-.navbar-brand{
-font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    color:#027733 !important;
-}
-/**carousel**/
-.pic{
-    width:100%;
-}
-.carousel>.carousel-inner{
-    max-height:590px;
-     width: 100%;
-}
-.carousel-caption{
-    margin:150px;
-    
-}
-
-.h4{
-    padding: 0px !important;
-    margin: 0px !important;
-    font-size:18px;
-}
-/**index-intro**/
-.index>.intro{
-    height:auto;
-    margin:60px 0px;
-    width:100%;
-}
-.nigalo{
-    font-family:'Montserrat', sans-serif;
-    font-size:20px;
-    color:#027733
-}
-h3{
-    margin: 20px 0px;
-    font-size:30px;
-   font-family: 'Sorts Mill Goudy', serif;
-}
-/**index-rating**/
-.rating {
-     height:auto;
-    width:100%;
-    background-color:#f1f1f1;
-    color:black;
-}
-
-.rating>.content{
-    padding-top:25px;
-    padding-bottom:25px;
-    font-size:28px;
-    
-/**image overlay**/
-}
-
-.overtext{
-    margin:10px 15px;
-}
-
-
-.adventure{
-    background-color: white;
-    height:auto;
-    padding:0px !important;
-}
-.adventure .content{
-    padding: 15px;
-    line-height: 30px;
-    font-size: 16px;
-}
-
-.abc{
-   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501618174/relaxs_zzte7o.jpg');
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 350px;
-}
-
-.cde{
-   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1502500269/rough_uuf59a.jpg');
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 350px;
-}
-    .bcd{
-   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501829762/journey_d2uebr.jpg');
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 350px;
-}
-
-.efg{
-   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501617250/sea_ng1a4w.jpg');
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 350px;
-}
-.xyz{
-   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1502500528/river-fish-_uekdmt.jpg');
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 350px;  
-}
-.container-fluid{
-padding:0px !important;
-    margin: 0px !important;
-}
-
-
-.culture{
-    background-color: white;
-    height:auto;
-    padding:0px !important;
-    }
-
-.culture .content{
-    padding: 15px;
-    line-height: 30px;
-    font-size: 16px;
-}
-
-.nature{
-    background-color: white;
-    height:auto;
-    padding:0px !important;
-}
-.nature .col-md-6{
-    margin:0px;
-    padding:0px;
-}
-.nature .content{
-   padding: 15px;
-    line-height: 30px;
-    font-size: 16px;
-}
-
-/**highlights**/
-
-.introp{
-    text-align: left;
-    padding:15px 30px;
-}
-.booking{
-    height:auto;
-    background-color:#f1f1f1;
-    margin-bottom: 10px;
-}
-#book-content{
-    padding: 45px;
-    background-color: #f1f1f1;
-}
-.booking>.content{
-    padding:40px 35px;
-}
-.forum{
-    margin:20px 300px;
-    width:auto;
-}
+/**media-screen**/
 
 @media screen and (max-width:1199px){
     .forum{
@@ -229,26 +55,201 @@ padding:0px !important;
 }
 }
 
+                        /**<------------------------------------------------------------------------------------->**/ 
+
+
+
+/**body **/
+
+body, html { 
+    overflow-x: hidden;
+   font-family: 'Libre Baskerville', serif;
+}
+
+.container-fluid{
+padding:0px !important;
+    margin: 0px !important;
+}
+
+.h4{
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size:18px;
+}
+
+.nigalo{
+    font-family:'Montserrat', sans-serif;
+    font-size:20px;
+    color:#027733
+}
+h3{
+    margin: 20px 0px;
+    font-size:30px;
+   font-family: 'Sorts Mill Goudy', serif;
+    text-align: center;
+}
+
 .nig{
     background-color: #027733;
     border: none;
     text-align: center;
     
 }
-.award{
-  /*depnding on the screen size the pixel should change automatically, but just adding width for demo. Change the width to 200,300,500, 1000. should work*/
-  width:700px;
-  max-width:100%;
+.just
+{
+    text-align: justify;
 }
-.aw-img{
-   display: flex; 
-    justify-content: space-around;
-    margin:10px 40px;
+
+                     /**<------------------------------------------------------------------------------------->**/
+
+
+/**navbar**/
+#navbar a:hover { 
+text-decoration: none;
+    color:#027733;
+} 
+#navbar a{
+    color:black; 
 }
-.imga{
-  width: 17%;
-  height:auto;
+.navbar-brand{
+font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:#027733 !important;
 }
+                     
+
+                   /**<------------------------------------------------------------------------------------->**/
+
+
+
+/**carousel**/
+.pic{
+    width:100%;
+}
+.carousel>.carousel-inner{
+    max-height:590px;
+     width: 100%;
+}
+.carousel-caption{
+    margin:150px;
+    
+}
+
+                   /**<------------------------------------------------------------------------------------->**/
+
+
+
+/**index-intro**/
+.index>.intro{
+    height:auto;
+    margin:60px 0px;
+    width:100%;
+}
+
+/**index-rating**/
+.rating {
+     height:auto;
+    width:100%;
+    background-color:#f1f1f1;
+    color:black;
+}
+
+.rating>.content{
+    padding-top:25px;
+    padding-bottom:25px;
+    font-size:28px;
+    }
+
+.overtext{
+    margin:10px 15px;
+}
+
+/**features**/
+
+.features
+{
+    background-color: white;
+    height:auto;
+    padding:0px !important; 
+}
+
+.features .content
+{
+   padding: 15px;
+   line-height: 30px;
+   font-size: 16px; 
+}
+
+.introp{
+    text-align: justify;
+    padding:15px 30px;
+}
+/** images for features **/
+.abc{
+   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501618174/relaxs_zzte7o.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 350px;
+}
+
+.cde{
+   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1502500269/rough_uuf59a.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 350px;
+}
+    .bcd{
+   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501829762/journey_d2uebr.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 350px;
+}
+
+.efg{
+   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501617250/sea_ng1a4w.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 350px;
+}
+.xyz{
+   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1502500528/river-fish-_uekdmt.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 350px;  
+}
+
+
+
+
+
+/**highlights**/
+
+
+.booking{
+    height:auto;
+    background-color:#f1f1f1;
+    margin-bottom: 10px;
+}
+#book-content{
+    padding: 45px;
+    background-color: #f1f1f1;
+}
+.booking>.content{
+    padding:40px 35px;
+}
+.forum{
+    margin:20px 300px;
+    width:auto;
+}
+
+
+
+
 
 
 .feat{
@@ -307,6 +308,7 @@ padding:0px !important;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
 .contain .col-md-6 {
   padding: 0;
 }
@@ -320,7 +322,10 @@ padding:0px !important;
     padding:40px 60px 40px 60px;
 }
 
+                   /**<------------------------------------------------------------------------------------->**/
 
+
+/**overview**/
 
 .overview-header{
     width:100%;
@@ -339,8 +344,9 @@ padding:0px !important;
     height:auto;
 }
 
-.overview>.content>.aboutus{
+.aboutus{
     margin:25px 40px;
+    text-align: justify;
 }
 .values{
     margin:20px 30px;
@@ -353,8 +359,11 @@ padding:0px !important;
 }
 .values .val{
     margin:15px 20px;
-    text-align: left;
+    text-align: justify;
 }
+                   /**<------------------------------------------------------------------------------------->**/
+
+/**lodges **/
 
 .lodges{
     margin:15px 45px 15px 45px;
@@ -369,6 +378,10 @@ padding:0px !important;
     background-color: darkgrey;
 }
 
+.lodge-content
+{
+    padding:14px;
+}
 
 .room{
     margin-top: 30px;
@@ -392,6 +405,11 @@ padding:0px !important;
 .room>.intro>.content>.col-md-4{
     border: 1px solid #027733;
 }
+
+                  /**<------------------------------------------------------------------------------------->**/
+
+/**booking**/
+
 .register .row{
     margin-top:60px;
 }
@@ -416,6 +434,7 @@ padding:0px !important;
     padding-bottom: 20px;
 }
 
+                  /**<------------------------------------------------------------------------------------->**/
 
 /**Offers**/
 .offers{
@@ -430,7 +449,16 @@ padding:0px !important;
 
 .offers .off{
     padding:20px 25px;
+    text-align: justify;
 }
+.offer-content
+{
+    padding: 60px 15px 15px 15px ;
+}
+                  
+                /**<------------------------------------------------------------------------------------->**/
+
+
 /**Activities**/
 .activities{
     margin-top: 80px;
@@ -447,10 +475,13 @@ padding:0px !important;
 }
 .activities .par{
     padding: 30px 0px 0px 50px;
+    text-align: justify;
 }
 .act{
     float:right;
 }
+
+                /**<------------------------------------------------------------------------------------->**/
 
 /**contact**/
 .contact{
@@ -476,10 +507,14 @@ padding:0px !important;
     background-color:green;
     color:white;
 }
+
+               /**<------------------------------------------------------------------------------------->**/
+/**career**/
+
 .careers .row{
     background-color:#f1f1f1;
 }
-/**career**/
+
 
 .careers .intro
 {
@@ -490,7 +525,26 @@ padding:0px !important;
     padding:40px 40px;
 }
 
+                  /**<------------------------------------------------------------------------------------->**/
 
+/**awards**/
+
+.award{
+  /*depnding on the screen size the pixel should change automatically, but just adding width for demo. Change the width to 200,300,500, 1000. should work*/
+  width:700px;
+  max-width:100%;
+}
+.aw-img{
+   display: flex; 
+    justify-content: space-around;
+    margin:10px 40px;
+}
+.imga{
+  width: 17%;
+  height:auto;
+}
+
+                  /**<------------------------------------------------------------------------------------->**/
 
 /**footer**/
 .footer{
