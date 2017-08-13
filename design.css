@@ -7,41 +7,34 @@
     .contact>.par{
     margin:20px 120px;
     }
-    .carousel-caption{
-    margin:150px ;
-    
-}
+   
      
     
 }
 
-@media screen and (max-width:991px){
+@media screen and (max-width:880px){
     .forum{
         margin:15px 150px;
     }
     .contact>.par{
     margin:20px 80px;
     }
-    .carousel-caption{
-    margin:150px 100px;
+   .carousel-caption h1,p{
+   top: 20%;
+}
+    
+     .carousel-caption h1{
+   font-size: 20px;
+}
+    .carousel-caption p{
+   font-size: 14;
+        width:350px;
+        margin: 0px auto;
+        text-align:center;
+    }
     
 }
-     
-}
-@media screen and (max-width:767px){
-    .forum{
-        margin:10px 100px;
-        
-    }
-    .contact>.par{
-    margin:20px 40px;
-    }
-    .carousel-caption{
-    margin:-30px 5px 0px 5px;
-    font-size:12px;
-    
-}
-}
+
 @media screen and (max-width:479px){
     .forum{
         margin:0px 0px;
@@ -49,10 +42,19 @@
     .contact>.par{
     margin:20px 20px;
     }
-     .carousel-caption{
-    margin:-30px 5px 0px 5px;
-    font-size:12px;
+    .carousel-caption h1,p{
+   top: 10%;
 }
+    
+     .carousel-caption h1{
+   font-size: 12px;
+}
+    .carousel-caption p{
+   font-size: 8px;
+        width:250px;
+        margin: 0px auto;
+        text-align:center;
+    }
 }
 
                         /**<------------------------------------------------------------------------------------->**/ 
@@ -64,6 +66,7 @@
 body, html { 
     overflow-x: hidden;
    font-family: 'Libre Baskerville', serif;
+  margin-top: 20px;
 }
 
 .container-fluid{
@@ -123,15 +126,8 @@ font-family: 'Montserrat', sans-serif;
 
 
 /**carousel**/
-.pic{
-    width:100%;
-}
-.carousel>.carousel-inner{
-    max-height:590px;
-     width: 100%;
-}
-.carousel-caption{
-    margin:150px;
+.carousel-caption
+{
     
 }
 
