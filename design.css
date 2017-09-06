@@ -2,10 +2,10 @@
 
 @media screen and (max-width:1199px){
     .forum{
-        margin:15px 200px;
+        margin:15px 200px !important;
     }
     .contact>.par{
-    margin:20px 120px;
+    margin:20px 120px!important;
     }
    
      
@@ -14,13 +14,13 @@
 
 @media screen and (max-width:880px){
     .forum{
-        margin:15px 150px;
+        margin:15px 150px !important;
     }
     .contact>.par{
-    margin:20px 80px;
+    margin:20px 80px !important;
     }
    .carousel-caption h1,p{
-   top: 20%;
+   top: 20% !important;
 }
     
      .carousel-caption h1{
@@ -37,10 +37,10 @@
 
 @media screen and (max-width:479px){
     .forum{
-        margin:0px 0px;
+        margin:0px 0px !important;
     }
     .contact>.par{
-    margin:20px 20px;
+    margin:20px 20px !important;
     }
     .carousel-caption h1,p{
    top: 10%;
