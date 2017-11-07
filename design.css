@@ -2,7 +2,7 @@
 
 @media screen and (max-width:1199px){
     .forum{
-        margin:15px 200px !important;
+        margin:15px 20% !important;
     }
     .contact>.par{
     margin:20px 120px!important;
@@ -14,16 +14,16 @@
 
 @media screen and (max-width:880px){
     .forum{
-        margin:15px 150px !important;
+        margin:15px 5% !important;
     }
     .contact>.par{
     margin:20px 80px !important;
     }
-   .carousel-caption h1,p{
+   .carousel-caption h4,p{
    top: 20% !important;
 }
     
-     .carousel-caption h1{
+     .carousel-caption h4{
    font-size: 20px;
 }
     .carousel-caption p{
@@ -32,6 +32,8 @@
         margin: 0px auto;
         text-align:center;
     }
+    
+    
     
 }
 
@@ -42,12 +44,15 @@
     .contact>.par{
     margin:20px 20px !important;
     }
-    .carousel-caption h1,p{
+    .carousel-caption h4,p{
    top: 10%;
 }
     
-     .carousel-caption h1{
+     .carousel-caption h4{
    font-size: 12px;
+}
+    .suggestion h4{
+   font-size: 13px;
 }
     .carousel-caption p{
    font-size: 8px;
@@ -55,6 +60,24 @@
         margin: 0px auto;
         text-align:center;
     }
+    
+  #subscribe-form
+    {
+        margin: 0% !important;
+        padding: 0% !important;
+        width: 100% !important;
+    }
+    
+   .lodges>h1
+    {
+        font-size: 16px !important;;
+    }
+    
+    .az
+{
+    padding-left: 40% !important;
+   
+}
 }
 
                         /**<------------------------------------------------------------------------------------->**/ 
@@ -65,7 +88,7 @@
 
 body, html { 
     overflow-x: hidden;
-   font-family: 'Libre Baskerville', serif;
+   font-family: 'Montserrat', sans-serif;
   margin-top: 20px;
 }
 
@@ -74,23 +97,47 @@ padding:0px !important;
     margin: 0px !important;
 }
 
-.h4{
-    padding: 0px !important;
+h1{
+    padding: 1% 0% !important;
     margin: 0px !important;
-    font-size:18px;
+    font-size:32px;
+    color: #027733;
+    font-weight: 800;
 }
 
+h2{
+   
+    font-size:22px;
+    color: #027733;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+h3
+{
+    font-size:16px;
+    color: #027733;
+    padding: 1% 0px !important;
+    margin: 0px !important;
+    font-weight: 600;
+    text-align: center;
+}
+
+h4
+{
+    padding: 2% 0% !important;
+    margin: 0px !important;
+    font-size:32px;
+    color: white;
+    font-weight: 800;
+}
 .nigalo{
     font-family:'Montserrat', sans-serif;
     font-size:20px;
     color:#027733
 }
-h3{
-    margin: 20px 0px;
-    font-size:30px;
-   font-family: 'Sorts Mill Goudy', serif;
-    text-align: center;
-}
+
 
 .nig{
     background-color: #027733;
@@ -101,6 +148,96 @@ h3{
 .just
 {
     text-align: justify;
+}
+
+
+/**form.panel **/
+
+.panel
+{
+    margin: 1% 30%;
+    border-radius: 0 !important;
+    border: 4px solid #027733; 
+  
+}
+
+.panel-heading
+{
+    background-color:white !important;
+    border: none;
+    height: 50px;
+    border-bottom: solid 1px #B3B6B7;
+}
+
+.panel-body
+{
+   
+}
+
+.form-group
+{
+    margin:2% auto;
+    padding: auto;
+    object-position: center;
+    text-align: left;
+}
+
+.form-control
+{
+    border-radius: 0;
+    border: 2px solid #027733;
+}
+
+/**buttons**/
+.btn-group
+{
+    margin:auto;
+}
+
+.btn1
+{
+    background-color: #027733;
+    color:white;
+    border-radius: 0;
+    margin-bottom: 2%;
+   
+}
+
+.btn2
+{
+    border-radius: 0;
+    border: 2px solid #027733;
+    color: #027733;
+    background-color: white;
+    margin-bottom: 2%;
+    
+}
+
+#mc-embedded-subscribe
+{
+    border-radius: 0;
+    background-color:#027733;
+    color: white;
+    height:34px;
+    border:none;
+}
+#mce-EMAIL
+{
+    border-radius: 0;
+    border: 1px solid #027733;
+    color: #027733;
+    background-color: white;
+    height:34px;
+}
+.control-label
+{
+    text-align: left !important;
+}
+
+.submission
+{
+    margin: 0px auto !important;
+    padding: 0px auto !important;
 }
 
                      /**<------------------------------------------------------------------------------------->**/
@@ -126,153 +263,132 @@ font-family: 'Montserrat', sans-serif;
 
 
 /**carousel**/
-.carousel-caption
+.carousel
 {
     
+  
 }
 
                    /**<------------------------------------------------------------------------------------->**/
 
 
 
-/**index-intro**/
-.index>.intro{
-    height:auto;
-    margin:60px 0px;
+/**index-welcome**/
+
+.index
+{
     width:100%;
+}
+.welcome
+{
+    background-color:#F8F9F9;
+    padding:1% 5%;
+}
+.welcome-text
+{
+    text-align: left;   
+}
+
+.welcome .booking
+{
+     
+    text-align: right
 }
 
 /**index-rating**/
-.rating {
-     height:auto;
-    width:100%;
-    background-color:#f1f1f1;
-    color:black;
-}
 
-.rating>.content{
-    padding-top:25px;
-    padding-bottom:25px;
-    font-size:28px;
-    }
-
-.overtext{
-    margin:10px 15px;
-}
 
 /**features**/
 
 .features
 {
-    background-color: white;
-    height:auto;
-    padding:0px !important; 
+    margin: 0% 3%;
 }
-
-.features .content
+.features .col-md-4
 {
-   padding: 15px;
-   line-height: 30px;
-   font-size: 16px; 
+    padding:2% 1.5%;
+    text-align: center;
+  
+    margin: 1% 0%;
+   
+    
 }
 
-.introp{
-    text-align: justify;
-    padding:15px 30px;
+.features .row
+{
+    margin:0px 75px;
+    column-gap: 30px;
+}
+
+
+.highlight
+{
+    text-align:justify; 
 }
 /** images for features **/
-.abc{
-   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501618174/relaxs_zzte7o.jpg');
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 350px;
-}
-
-.cde{
-   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1502500269/rough_uuf59a.jpg');
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 350px;
-}
-    .bcd{
-   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501829762/journey_d2uebr.jpg');
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 350px;
-}
-
-.efg{
-   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1501617250/sea_ng1a4w.jpg');
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 350px;
-}
-.xyz{
-   background-image:url('http://res.cloudinary.com/dgezrstzt/image/upload/v1502500528/river-fish-_uekdmt.jpg');
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 350px;  
-}
 
 
-
-
-
-/**highlights**/
-
-
-.booking{
-    height:auto;
-    background-color:#f1f1f1;
-    margin-bottom: 10px;
-}
-#book-content{
-    padding: 45px;
-    background-color: #f1f1f1;
-}
-.booking>.content{
-    padding:40px 35px;
-}
-.forum{
-    margin:20px 300px;
-    width:auto;
-}
-
-
-
-
-
-
-.feat{
-    text-align: center;
-   padding-top: 15px;
-    font-size: 25px;
-}
-
-.overviewcontent{
-    margin-top:60px; 
-}
-
-
-.line{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height:1px;
-}
-
-
-.contain{
+.circle
+{
+    display: inline-block;
   position: relative;
- 
-  padding:0px;
-  margin:0px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
+.show
+{
+    width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+
+/**offer*/
+
+.offer
+{
+     background-image:url("http://res.cloudinary.com/dgezrstzt/image/upload/v1502517440/hotel-compressed_ny64oq.jpg");
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+    color: #F8F9F9;
+}
+
+
+/**reviews**/
+
+.review
+{
+     height:auto;
+    background-color: white;
+}
+.review .row
+{
+    padding:2% 20%;
+}
+
+.review .left
+{
+    border-right: 1px solid #ccc;
+}
+.display
+{
+
+}
+
+.imgdisplay
+{
+   background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 450px;
+    
+}
 
 .overlay {
   position: absolute;
@@ -282,13 +398,19 @@ font-family: 'Montserrat', sans-serif;
   background-color: #008CBA;
   overflow: hidden;
   width: 100%;
-  height: 0;
+  height: 30px;
   transition: .5s ease;
     opacity: 0.8;
    padding:0px;
   margin:0px;
 }
 
+.contain{
+  position: relative;
+ 
+  padding:0px;
+  margin:0px;
+}
 .contain:hover .overlay {
   height: 100%;
 }
@@ -305,19 +427,62 @@ font-family: 'Montserrat', sans-serif;
   -ms-transform: translate(-50%, -50%);
 }
 
-.contain .col-md-6 {
+.contain .col-md-4 {
   padding: 0;
 }
 
-
-.review{
-     height:250px;
-    background-color: bisque;
+/**mail**/
+.mail
+{
+    padding:2%;
+    border: none !important;
+    background-color: #F8F9F9;
+    
+    
 }
-.review>.content{
-    padding:40px 60px 40px 60px;
+.glyphicon-envelope
+{
+    color:green;
+    font-size: 42px;
 }
 
+#subscribe-form
+{
+    width: 50%;
+    margin: auto;
+    border: 3px solid darkgreen;
+}
+
+/**map**/
+#map
+{
+ height: 400px;
+ width: 100%;
+ overflow: hidden;
+ object-fit: cover;
+ 
+    float:left;
+  clear:none;  
+margin: 0 !important;
+}
+.info
+{
+    background-color: #027733;
+    height: 400px;
+    
+    float:left;
+    clear:none;  
+    
+}
+
+.infotext
+{
+    padding: 25% 10%;
+    color:white;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+}
                    /**<------------------------------------------------------------------------------------->**/
 
 
@@ -335,13 +500,13 @@ font-family: 'Montserrat', sans-serif;
   }
 
 .overview>.content{
-    margin:25px 40px;
-    border:1px solid #027733;
+    margin:1% 3%;
+  
     height:auto;
 }
 
 .aboutus{
-    margin:25px 40px;
+    margin:0% 40px;
     text-align: justify;
 }
 .values{
@@ -354,7 +519,7 @@ font-family: 'Montserrat', sans-serif;
     background-color: #f1f1f1;
 }
 .values .val{
-    margin:15px 20px;
+    margin:0% 20px;
     text-align: justify;
 }
                    /**<------------------------------------------------------------------------------------->**/
@@ -362,16 +527,16 @@ font-family: 'Montserrat', sans-serif;
 /**lodges **/
 
 .lodges{
-    margin:15px 45px 15px 45px;
+    margin:15px 3%;
 }
 .lodges>.intro{
-    border:1px solid #027733;
+    
     height:auto;
 }
 
 .lodges>.intro>.content{
     margin:10px;
-    background-color: darkgrey;
+    
 }
 
 .lodge-content
@@ -383,23 +548,16 @@ font-family: 'Montserrat', sans-serif;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.room>.intro{
-    border: 1px solid #027733;
-    height:auto;
-     margin-top: 30px;
-    margin-bottom: 30px;
-}
 
-.room>.intro>.content{
-    margin:10px;
-    background-color: darkgrey;
+.scenary
+{
+    background-image: url("http://res.cloudinary.com/dgezrstzt/image/upload/c_scale,h_402,q_100/v1509844953/sunrise-2906321_wsrpxy.jpg");
+    height: 350px;
+    width:100%;
 }
-.room>.intro>.content>.col-md-8{
-    border:1px solid #027733;
-}
-
-.room>.intro>.content>.col-md-4{
-    border: 1px solid #027733;
+.amenities
+{
+    text-align: center;
 }
 
                   /**<------------------------------------------------------------------------------------->**/
@@ -407,17 +565,17 @@ font-family: 'Montserrat', sans-serif;
 /**booking**/
 
 .register .row{
-    margin-top:60px;
+    margin-top:1%;
 }
 .register>.intro{
     height:200px;
     width:100%;
-    margin-top: 60px;
+    margin-top: 1%;
     
 }
 #book-content{
-    margin: 95px 60px !important;
-    border: 1px solid #027733;
+    margin: 2% 8% !important;
+    
 }
 .record{
     margin:60px 60px;
@@ -430,11 +588,16 @@ font-family: 'Montserrat', sans-serif;
     padding-bottom: 20px;
 }
 
+.az
+{
+   
+   
+}
                   /**<------------------------------------------------------------------------------------->**/
 
-/**Offers**/
+/**Recreation**/
 .offers{
-    margin-top: 80px;
+    margin-top: 2%;
     margin-bottom: 50px;
 }
 
@@ -444,57 +607,52 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .offers .off{
-    padding:20px 25px;
+    padding:20px 3%;
     text-align: justify;
 }
 .offer-content
 {
     padding: 60px 15px 15px 15px ;
 }
-                  
+.room .row
+{
+    margin-bottom:40px;
+}
+.room
+{
+    text-align: center;
+}
+       
+.amenities
+{
+    margin: 0% 6%;
+}
                 /**<------------------------------------------------------------------------------------->**/
 
 
 /**Activities**/
-.activities{
-    margin-top: 80px;
-    margin-bottom: 50px;
+.activitylist
+{
+    margin:auto;
 }
 
-.activities>.div{
-    margin:40px 60px;
-    border: 1px solid #027733;
-}
-.activities .at{
-    margin-right: 0px;
-    padding-right: 0px;
-}
-.activities .par{
-    padding: 30px 0px 0px 50px;
-    text-align: justify;
-}
-.act{
-    float:right;
+
+
+.event
+{
+   margin:40px 10%;
+    border: none;
+    box-shadow: 5px 5px 5px #F0F3F4;
+    height: auto;
 }
 
                 /**<------------------------------------------------------------------------------------->**/
 
 /**contact**/
 .contact{
-    margin-top: 60px;
+    margin-top: 2%;
 }
 
-.contact>.intro{
-    height:auto;
-    width:100%;
-    margin-top: 80px;
-   
-    
-}
-.contact>.intro>.content{
-    margin: 45px 100px;
-    border: 1px solid #027733;
-}
 .contact .par{
    
     background-color: #f1f1f1;
@@ -504,7 +662,65 @@ font-family: 'Montserrat', sans-serif;
     color:white;
 }
 
-               /**<------------------------------------------------------------------------------------->**/
+.suggestion
+{
+    background-color: #027733;
+    height:auto;
+    width: 100%;
+}
+
+.advice
+{
+    padding:1% 12%;
+    color:white;
+    text-align: center;
+    margin: 0% auto;
+    
+}
+               
+
+
+/**Sustainability**/
+.infolist
+{
+    margin:40px 5%;
+    border: none;
+    background-color:#F8F9F9;
+}
+
+.sustain-header h1
+{
+    margin-top: 0% !important;
+}
+
+
+                                 /**<------------------------------------------------------------------------------------->**/
+
+/**amenities**/
+.servicelist
+{
+    margin:0% 10%;
+    text-align: left;
+    line-height: 28px;
+}
+
+.servicelist h3
+{
+    text-align: left;
+}
+
+.am1
+{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+
+.am2
+{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+
 /**career**/
 
 .careers .row{
@@ -543,92 +759,33 @@ font-family: 'Montserrat', sans-serif;
                   /**<------------------------------------------------------------------------------------->**/
 
 /**footer**/
-.footer{
-    background-color: black;
+.footer
+{
+    height:auto;
+    width: 100%;
+    background-color:black;
+    color:darkgray;
+}
+
+.footer .left
+{
+    padding: 1% 0%;
+    text-align: center;
+    
+}
+
+.footer .right
+{
+    text-align: center;
+    padding-right:0%;
+    
+}
+.fa
+{
+    padding: 3%;
+    font-size: 20px;
+    width: 26px;
+    text-align: center;
     text-decoration: none;
-    color:aliceblue;
-    width:100%;
-   
-   
-}   
-.footer>.content{
-    padding:35px 70px;
+    color:darkgray;
 }
-.footer .left{
-    padding-left: 60px;
-    
-}
-
-#foot{
-     padding:35px 0px 0px 10px;
-}
- .footer a:link, .footer a:visited {
-    
-    color: white;
-   
-    text-align: center; 
-    text-decoration: none;
-   
-}
-
-.footer a:hover, .footer a:active {
-    color: gainsboro;
-}
-.span12{
-    color:white;
-    background-color: grey;
-}
-
-.subs{
-    
-
-}
-.email{
-    margin-right: 0px !important;
-    padding-right: 0px !important;
-}
-.subs .col-xs-10{
-    margin-right: 0px !important;
-    padding-right: 0px !important;
-}
-
-.subs .col-xs-2{
-    margin-left: 0px !important;
-    padding-left: 0px !important;
-}
-.sutta{
-    margin: auto;
-}
-.social{
-    margin-left: 0px;
-    padding-left: 13px;
-   
-}
-
-.fa {
-    
-    font-size: 60px;
-   padding:4px;
-    text-align:right;
-    text-decoration: none;
-  font-size:30px !important;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-    color:beige;
-}
-.contact{
-    word-spacing: 10px;
-    margin-top: 10px;
-}
-.copyright{
-    padding-top: 16px;
-    padding-bottom: 16px;
-    background-color: black;
-    color: white;
-}
-
-
-
